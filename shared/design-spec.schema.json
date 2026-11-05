@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Social Visual Canva DesignSpec",
+  "type": "object",
+  "required": ["metadata", "canvas", "assets", "elements"],
+  "properties": {
+    "metadata": { "type": "object", "required": ["version", "conceptId", "name"] },
+    "canvas": { "type": "object", "properties": { "width": { "const": 1080 }, "height": { "const": 1080 } }, "required": ["width", "height"] },
+    "assets": { "type": "array" },
+    "elements": { "type": "array" }
+  }
+}
