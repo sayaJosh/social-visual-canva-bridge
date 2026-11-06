@@ -16,7 +16,7 @@ description: Turn long social copy into three finished 1:1 visual directions, th
 
 ## Canva 可編輯版
 
-使用者選定一個方案後，才建立 `DesignSpec` 並送往橋接器。
+使用者選定一個方案後，才建立 `DesignSpec`。
 
 - 背景、山水、星球、花枝與光線：獨立圖片圖層。
 - 資訊卡、分隔線、CTA 底框：Canva 形狀圖層。
@@ -24,4 +24,11 @@ description: Turn long social copy into three finished 1:1 visual directions, th
 - 金箔、漸層、書法或 AI 特殊字：獨立透明 PNG，標示為「特殊主標 PNG（保真）」；不要硬轉成普通文字。
 - 建立的是新 Canva 草稿；不得覆寫、刪除或發布既有檔案。
 
-交付時簡短說明：可直接改的文字、可移動/替換的圖像、保真的 PNG、繁中校字結果，以及 Canva 草稿連結（只有橋接成功後才能提供）。
+### 直接送 Canva 的判斷
+
+先檢查目前對話是否有已授權的 Canva 工具可用。
+
+- **Canva 工具已可用**：以該工具建立新的 1080 × 1080 草稿，依序放入背景、裝飾、形狀與原生可編輯文字；完成後回傳真實 Canva 編輯網址。
+- **Canva 工具不可用**：交付背景素材與 `DesignSpec`，清楚說明「目前沒有已授權的 Canva 工具，因此尚未建立草稿」；不得宣稱已建立 Canva 草稿、不得捏造網址，也不得以瀏覽器手動拼湊冒充自動圖層功能。
+
+交付時簡短說明：可直接改的文字、可移動/替換的圖像、保真的 PNG、繁中校字結果；只有真實建立成功時才提供 Canva 草稿連結。
